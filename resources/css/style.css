@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+    font-family: Verdana, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.top {
+    font-weight: normal;
+    font-size: 50px;
+    text-align: center;
+}
+
+a {
+    color: aquamarine;
+    font-size: 16px;
+}
+
+.centre {
+    text-align: center;
+}
+
+video,
+img {
+    margin: auto;
+    display: block;
+    max-width: 70%;
+}
+
+.middle {
+    font-weight: 300;
+    font-size: 42px;
+    text-align: center;
+}
+
+.gray-text {
+    font-size: 21px;
+    color: gray;
+    text-align: center;
+}
+
+.phone {
+    padding-top: 20px;
+}
+
+.bottom {
+    text-align: right;
+    color: gray;
+}
+
+footer {
+    padding-bottom: 10px;
+}
